@@ -61,20 +61,4 @@ DESCRIPTION:⛽ 今晚24时油价调整（AI预测第13轮），预测下调约4
 END:VALARM
 END:VEVENT
 
-BEGIN:VEVENT
-UID:oil-2026-0717@workbuddy.ai
-DTSTART;TZID=Asia/Shanghai:20260717T240000
-DTEND;TZID=Asia/Shanghai:20260718T010000
-SUMMARY:🤖 AI预测：油价小幅下调 ~-180元/吨 - 7月17日（55%置信度）
-DESCRIPTION:【2026年第14轮调价 · AI预测】\n预测结果：小幅下调约180元/吨\n折合：92#汽油约-0.14元/升\n置信度：55%\n预测依据：原油底部震荡，方向不明朗\n\n⚠️ 免责声明：AI预测仅供参考，以国家发改委公告为准
-LOCATION:全国
-CATEGORIES:成品油调价,AI预测,下调
-COLOR:purple
-BEGIN:VALARM
-TRIGGER:-PT6H
-ACTION:DISPLAY
-DESCRIPTION:⛽ 今晚24时油价调整（AI预测第14轮），预测小幅下调
-END:VALARM
-END:VEVENT
-
 END:VCALENDAR

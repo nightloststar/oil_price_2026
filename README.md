@@ -2,7 +2,7 @@
 oil_price_2026.ics — 日历订阅文件
 订阅链接：https://raw.githubusercontent.com/nightloststar/oil_price_2026/refs/heads/main/oil_price_2026.ics
 
-全部25轮调价提醒，含已确认12次 + AI预测13次
+全部25轮调价提醒，含已确认12次 + AI预测13次，已精简至最近1次调价+2次AI预测
 
 每个事件含提前6小时提醒，告知"今日调价日+建议加油策略"
 

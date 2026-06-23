@@ -4,9 +4,9 @@ PRODID:-//WorkBuddy AI//油价调价日历 2026//ZH
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⛽ 2026国内成品油调价日历（AI预测版）
-X-WR-CALDESC:国内成品油调价提醒 · 历史数据+AI预测 · 数据来源：国家发改委 · 更新日期：2026-06-22
+X-WR-CALDESC:国内成品油调价提醒 · 历史数据+AI预测 · 数据来源：国家发改委 · 更新日期：2026-06-23 08:22 CST · 布伦特$78.05/WTI$74.16
 X-WR-TIMEZONE:Asia/Shanghai
-X-WR-RELCALID:oil-price-2026-ai-v1
+X-WR-RELCALID:oil-price-2026-ai-v3
 
 BEGIN:VTIMEZONE
 TZID:Asia/Shanghai
@@ -19,11 +19,131 @@ END:STANDARD
 END:VTIMEZONE
 
 BEGIN:VEVENT
+UID:oil-2026-0106@workbuddy.ai
+DTSTART;TZID=Asia/Shanghai:20260106T240000
+DTEND;TZID=Asia/Shanghai:20260107T010000
+SUMMARY:⛽ 油价搁浅 不作调整 - 1月6日
+DESCRIPTION:【2026年第1轮调价】\n调整结果：不作调整（搁浅）\n汽油调整：0元/吨\n柴油调整：0元/吨\n发布单位：国家发展和改革委员会\n生效时间：2026年1月6日24时\n状态：✅ 已确认
+LOCATION:全国
+CATEGORIES:成品油调价,已确认,搁浅
+END:VEVENT
+
+BEGIN:VEVENT
+UID:oil-2026-0120@workbuddy.ai
+DTSTART;TZID=Asia/Shanghai:20260120T240000
+DTEND;TZID=Asia/Shanghai:20260121T010000
+SUMMARY:⛽ 油价上调 汽+85/柴+85元/吨 - 1月20日
+DESCRIPTION:【2026年第2轮调价】\n调整结果：汽油每吨上调85元\,柴油每吨上调85元\n折合：92#汽油约+0.06元/升\n发布单位：国家发展和改革委员会\n生效时间：2026年1月20日24时\n状态：✅ 已确认
+LOCATION:全国
+CATEGORIES:成品油调价,已确认,上调
+COLOR:red
+END:VEVENT
+
+BEGIN:VEVENT
+UID:oil-2026-0203@workbuddy.ai
+DTSTART;TZID=Asia/Shanghai:20260203T240000
+DTEND;TZID=Asia/Shanghai:20260204T010000
+SUMMARY:⛽ 油价上调 汽+205/柴+195元/吨 - 2月3日
+DESCRIPTION:【2026年第3轮调价】\n调整结果：汽油每吨上调205元\,柴油每吨上调195元\n折合：92#汽油约+0.15元/升\n发布单位：国家发展和改革委员会\n生效时间：2026年2月3日24时\n状态：✅ 已确认
+LOCATION:全国
+CATEGORIES:成品油调价,已确认,上调
+COLOR:red
+END:VEVENT
+
+BEGIN:VEVENT
+UID:oil-2026-0224@workbuddy.ai
+DTSTART;TZID=Asia/Shanghai:20260224T240000
+DTEND;TZID=Asia/Shanghai:20260225T010000
+SUMMARY:⛽ 油价上调 汽+175/柴+170元/吨 - 2月24日
+DESCRIPTION:【2026年第4轮调价】\n调整结果：汽油每吨上调175元\,柴油每吨上调170元\n折合：92#汽油约+0.13元/升\n发布单位：国家发展和改革委员会\n生效时间：2026年2月24日24时\n状态：✅ 已确认
+LOCATION:全国
+CATEGORIES:成品油调价,已确认,上调
+COLOR:red
+END:VEVENT
+
+BEGIN:VEVENT
+UID:oil-2026-0309@workbuddy.ai
+DTSTART;TZID=Asia/Shanghai:20260309T240000
+DTEND;TZID=Asia/Shanghai:20260310T010000
+SUMMARY:⛽ 油价大涨 汽+695/柴+670元/吨 - 3月9日
+DESCRIPTION:【2026年第5轮调价】\n调整结果：汽油每吨上调695元\,柴油每吨上调670元\n折合：92#汽油约+0.50元/升\n背景：地缘局势升温\,国际油价大幅拉升\n发布单位：国家发展和改革委员会\n生效时间：2026年3月9日24时\n状态：✅ 已确认
+LOCATION:全国
+CATEGORIES:成品油调价,已确认,大幅上调
+COLOR:red
+END:VEVENT
+
+BEGIN:VEVENT
+UID:oil-2026-0323@workbuddy.ai
+DTSTART;TZID=Asia/Shanghai:20260323T240000
+DTEND;TZID=Asia/Shanghai:20260324T010000
+SUMMARY:⛽ 油价年内最大涨幅 汽+1160/柴+1115元/吨 - 3月23日
+DESCRIPTION:【2026年第6轮调价 · 年内最大涨幅】\n调整结果：汽油每吨上调1160元\,柴油每吨上调1115元\n折合：92#汽油约+0.90元/升\n背景：地缘危机持续升级\,霍尔木兹海峡航运受阻\,布伦特触及年内高点\n发布单位：国家发展和改革委员会\n生效时间：2026年3月23日24时\n状态：✅ 已确认
+LOCATION:全国
+CATEGORIES:成品油调价,已确认,大幅上调
+COLOR:red
+END:VEVENT
+
+BEGIN:VEVENT
+UID:oil-2026-0407@workbuddy.ai
+DTSTART;TZID=Asia/Shanghai:20260407T240000
+DTEND;TZID=Asia/Shanghai:20260408T010000
+SUMMARY:⛽ 油价上调 汽+420/柴+400元/吨 - 4月7日
+DESCRIPTION:【2026年第7轮调价】\n调整结果：汽油每吨上调420元\,柴油每吨上调400元\n折合：92#汽油约+0.30元/升\n发布单位：国家发展和改革委员会\n生效时间：2026年4月7日24时\n状态：✅ 已确认
+LOCATION:全国
+CATEGORIES:成品油调价,已确认,上调
+COLOR:red
+END:VEVENT
+
+BEGIN:VEVENT
+UID:oil-2026-0421@workbuddy.ai
+DTSTART;TZID=Asia/Shanghai:20260421T240000
+DTEND;TZID=Asia/Shanghai:20260422T010000
+SUMMARY:⛽ 油价下调 汽-555/柴-530元/吨 - 4月21日（年内首次下调）
+DESCRIPTION:【2026年第8轮调价 · 年内首次下调】\n调整结果：汽油每吨下调555元\,柴油每吨下调530元\n折合：92#汽油约-0.40元/升\n背景：地缘局势降温\,国际油价高位回落\n发布单位：国家发展和改革委员会\n生效时间：2026年4月21日24时\n状态：✅ 已确认
+LOCATION:全国
+CATEGORIES:成品油调价,已确认,下调
+COLOR:green
+END:VEVENT
+
+BEGIN:VEVENT
+UID:oil-2026-0508@workbuddy.ai
+DTSTART;TZID=Asia/Shanghai:20260508T240000
+DTEND;TZID=Asia/Shanghai:20260509T010000
+SUMMARY:⛽ 油价上调 汽+320/柴+310元/吨 - 5月8日
+DESCRIPTION:【2026年第9轮调价】\n调整结果：汽油每吨上调320元\,柴油每吨上调310元\n折合：92#汽油约+0.25元/升\n发布单位：国家发展和改革委员会\n生效时间：2026年5月8日24时\n状态：✅ 已确认
+LOCATION:全国
+CATEGORIES:成品油调价,已确认,上调
+COLOR:red
+END:VEVENT
+
+BEGIN:VEVENT
+UID:oil-2026-0521@workbuddy.ai
+DTSTART;TZID=Asia/Shanghai:20260521T240000
+DTEND;TZID=Asia/Shanghai:20260522T010000
+SUMMARY:⛽ 油价小幅上调 汽+75/柴+70元/吨 - 5月21日
+DESCRIPTION:【2026年第10轮调价】\n调整结果：汽油每吨上调75元\,柴油每吨上调70元\n折合：92#汽油约+0.06元/升\n加满50升油箱约多花3元\n发布单位：国家发展和改革委员会\n生效时间：2026年5月21日24时\n状态：✅ 已确认
+LOCATION:全国
+CATEGORIES:成品油调价,已确认,上调
+COLOR:red
+END:VEVENT
+
+BEGIN:VEVENT
+UID:oil-2026-0604@workbuddy.ai
+DTSTART;TZID=Asia/Shanghai:20260604T240000
+DTEND;TZID=Asia/Shanghai:20260605T010000
+SUMMARY:⛽ 油价下调 汽-525/柴-505元/吨 - 6月4日
+DESCRIPTION:【2026年第11轮调价】\n调整结果：汽油每吨下调525元\,柴油每吨下调505元\n折合：92#汽油约-0.38元/升\n背景：国际油价快速回落\,美伊谈判进展\n发布单位：国家发展和改革委员会\n生效时间：2026年6月4日24时\n状态：✅ 已确认
+LOCATION:全国
+CATEGORIES:成品油调价,已确认,下调
+COLOR:green
+END:VEVENT
+
+BEGIN:VEVENT
 UID:oil-2026-0618@workbuddy.ai
 DTSTART;TZID=Asia/Shanghai:20260618T240000
 DTEND;TZID=Asia/Shanghai:20260619T010000
-SUMMARY:⛽ 油价下调 汽-515/柴-495元/吨 - 6月18日（最新）
-DESCRIPTION:【2026年第12轮调价 · 最新确认】\n调整结果：汽油每吨下调515元，柴油每吨下调495元\n折合：92#汽油约-0.40元/升，北京92#降至7.94元/升\n背景：美伊谅解备忘录签署，地缘降温+供应宽松\n发布单位：国家发展和改革委员会\n生效时间：2026年6月18日24时\n状态：✅ 已确认（2连降落地）
+SUMMARY:⛽ 油价下调 汽-515/柴-495元/吨 - 6月18日（2连降）
+DESCRIPTION:【2026年第12轮调价 · 2连降落地】\n调整结果：汽油每吨下调515元\,柴油每吨下调495元\n折合：92#汽油约-0.41元/升（北京92#降至7.94元/升）\n95#汽油约-0.44元/升（调整后报价8.45元/升）\n0#柴油约-0.42元/升\n背景：美伊谅解备忘录签署\,地缘降温+供应宽松\n发布单位：国家发展和改革委员会\n生效时间：2026年6月18日24时\n状态：✅ 已确认（来源：国家发改委 ndrc.gov.cn 2026-06-18公告）
 LOCATION:全国
 CATEGORIES:成品油调价,已确认,下调
 COLOR:green
@@ -32,16 +152,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:oil-2026-0703-remind@workbuddy.ai
 DTSTART;TZID=Asia/Shanghai:20260703T090000
-DTEND;TZID=Asia/Shanghai:20260703T090000
+DTEND;TZID=Asia/Shanghai:20260703T100000
 SUMMARY:🤖 AI预警：今日油价调价窗口（第13轮）
-DESCRIPTION:【AI提醒·今日调价日】\n预测结果：大概率下调 350–500元/吨\n折合：92#汽油约-0.27~-0.39元/升\n置信度：72%\n建议：可等今晚24时后再加油，有望享受降价红利\n\n⚠️ 免责声明：AI预测仅供参考，以国家发改委正式公告为准
+DESCRIPTION:【AI提醒·今日调价日】\n预测结果：大概率继续下调 520-630元/吨\n折合：92#汽油约-0.40~-0.48元/升\n置信度：82%\n依据：周期内变化率持续深负\,布伦特$78.05/WTI$74.16\n建议：可等今晚24时后再加油\,有望继续享受降价红利\n\n⚠️ 免责声明：AI预测仅供参考\,以国家发改委正式公告为准
 LOCATION:全国
 CATEGORIES:AI预测提醒
 COLOR:purple
 BEGIN:VALARM
 TRIGGER:-PT3H
 ACTION:DISPLAY
-DESCRIPTION:⛽ 今天是油价调整日（第13轮），AI预测大概率下调，建议今晚24时后加油
+DESCRIPTION:⛽ 今天是油价调整日（第13轮）\,AI预测大概率继续下调520-630元/吨\,建议今晚24时后加油
 END:VALARM
 END:VEVENT
 
@@ -49,15 +169,207 @@ BEGIN:VEVENT
 UID:oil-2026-0703@workbuddy.ai
 DTSTART;TZID=Asia/Shanghai:20260703T240000
 DTEND;TZID=Asia/Shanghai:20260704T010000
-SUMMARY:🤖 AI预测：油价下调 ~-420元/吨 - 7月3日（72%置信度）
-DESCRIPTION:【2026年第13轮调价 · AI预测】\n预测结果：下调约350–500元/吨（汽油）\n折合：92#汽油约-0.27~-0.39元/升\n置信度：72%\n\n预测依据：\n- 新周期首日变化率约-10.2%\n- 美伊谅解达成，地缘局势持续降温\n- 国际油价触底震荡，底部支撑偏弱\n- OPEC增产压制油价上行空间\n\n⚠️ 免责声明：此为AI预测，不构成任何建议。以国家发改委公告为准。
+SUMMARY:🤖 AI预测：油价继续大跌 ~-550元/吨 - 7月3日（82%置信度）
+DESCRIPTION:【2026年第13轮调价 · AI预测（2026-06-23 08:22更新）】\n预测结果：下调约520-630元/吨（汽油）\n折合：92#汽油约-0.40~-0.48元/升\n95#汽油约-0.42~-0.51元/升\n0#柴油约-0.42~-0.51元/升\n置信度：82%\n\n预测依据（截至2026-06-23 08:22 CST）：\n- 新周期第1个工作日（6/22）变化率-10.37%\,第2个工作日（6/23）趋势确认\n- 布伦特原油 $78.05/桶（-3.07%），WTI $74.16/桶（-3.08%）\n- 美伊谅解备忘录已落地\,霍尔木兹海峡航运恢复\,地缘溢价加速回吐\n- OPEC+ 7月增产18.8万桶/日（连续第4个月增产）\n- 高盛下调Q2布伦特预期至$90（此前$99）\n- 隆众/卓创/金联创等机构预测下调440-630元/吨\n- 全国92#汽油有望全面跌回7元时代\n- 当前92#约7.9元/升\,95#约8.45元/升\n\n若预判兑现：\n- 6-7月将实现"3连降"\,单月累计降幅超0.8元/升\n- 全年汽油累计涨幅收窄至约1000元/吨\n- 北京92#或跌至7.4-7.5元/升\n\n风险因素：\n- 原油库存极低\,存在短线反弹可能\n- 夏季出行高峰需求释放\,或限制跌幅\n- 7月3日为第10个工作日\,中间若原油反弹将收窄降幅\n\n⚠️ 免责声明：此为AI预测\,不构成任何建议。以国家发改委公告为准。
 LOCATION:全国
 CATEGORIES:成品油调价,AI预测,下调
 COLOR:purple
 BEGIN:VALARM
 TRIGGER:-PT6H
 ACTION:DISPLAY
-DESCRIPTION:⛽ 今晚24时油价调整（AI预测第13轮），预测下调约420元/吨
+DESCRIPTION:⛽ 今晚24时油价调整（AI预测第13轮）\,预测下调520-630元/吨\,92#或降0.4元/升以上
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:oil-2026-0717@workbuddy.ai
+DTSTART;TZID=Asia/Shanghai:20260717T240000
+DTEND;TZID=Asia/Shanghai:20260718T010000
+SUMMARY:🤖 AI预测：油价小幅下调 ~-150元/吨 或搁浅 - 7月17日（55%置信度）
+DESCRIPTION:【2026年第14轮调价 · AI预测（2026-06-23 08:22更新）】\n预测结果：小幅下调约100-200元/吨\,或搁浅（幅度不足50元/吨）\n折合：92#汽油约-0.08~-0.15元/升（若下调）\n置信度：55%\n\n预测依据（截至2026-06-23 08:22 CST）：\n- 7月3日若兑现大降\,新周期基线大幅下移\,变化率将显著收窄\n- OPEC+ 7月增产18.8万桶/日持续施压\,供应端预期宽松\n- 布伦特原油或在$72-78区间运行\,底部支撑偏弱\n- 美伊外交推进\,供应预期改善\n- 高盛Q3布伦特预测$78-80\,油价下行趋势延续\n- 夏季出行需求高峰（7-8月）或限制跌幅\n- 7月3日大降后市场或出现技术性反弹\n- 存在搁浅可能（变化幅度<50元/吨时触发）\n\n关键节点：7月10日左右关注第7个工作日变化率\n\n情景分析：\n- 情景A（55%）：继续小幅下调100-200元/吨\n- 情景B（30%）：搁浅\,多空力量均衡\n- 情景C（15%）：反弹上调\,夏季需求超预期\n\n⚠️ AI预测仅供参考\,以国家发改委公告为准
+LOCATION:全国
+CATEGORIES:成品油调价,AI预测,下调
+COLOR:purple
+BEGIN:VALARM
+TRIGGER:-PT6H
+ACTION:DISPLAY
+DESCRIPTION:⛽ 今晚24时油价调整（AI预测第14轮）\,预测小幅下调100-200元/吨或搁浅
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:oil-2026-0731@workbuddy.ai
+DTSTART;TZID=Asia/Shanghai:20260731T240000
+DTEND;TZID=Asia/Shanghai:20260801T010000
+SUMMARY:🤖 AI预测：油价或搁浅不调 - 7月31日（48%置信度）
+DESCRIPTION:【2026年第15轮调价 · AI预测】\n预测结果：原油弱反弹\,幅度或不足触发门槛\,大概率搁浅\n置信度：48%\n\n预测依据：\n- 供需博弈\,油价反弹抵消部分降幅\n- 变化幅度可能不足50元/吨\n\n⚠️ AI预测仅供参考
+LOCATION:全国
+CATEGORIES:成品油调价,AI预测,搁浅
+COLOR:purple
+BEGIN:VALARM
+TRIGGER:-PT6H
+ACTION:DISPLAY
+DESCRIPTION:⛽ 今晚24时油价调整窗口（AI预测第15轮）\,预测或搁浅
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:oil-2026-0814@workbuddy.ai
+DTSTART;TZID=Asia/Shanghai:20260814T240000
+DTEND;TZID=Asia/Shanghai:20260815T010000
+SUMMARY:🤖 AI预测：油价搁浅 - 8月14日（45%置信度）
+DESCRIPTION:【2026年第16轮调价 · AI预测】\n预测结果：夏季出行高峰需求支撑\,国际油价低位企稳\,涨跌幅度有限\,大概率搁浅\n置信度：45%\n\n预测依据：\n- 夏季出行高峰支撑需求\n- 供需两端拉锯\,变化率不足50元/吨\n\n⚠️ AI预测仅供参考
+LOCATION:全国
+CATEGORIES:成品油调价,AI预测,搁浅
+COLOR:purple
+BEGIN:VALARM
+TRIGGER:-PT6H
+ACTION:DISPLAY
+DESCRIPTION:⛽ 今晚24时油价调整窗口（AI预测第16轮）
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:oil-2026-0828@workbuddy.ai
+DTSTART;TZID=Asia/Shanghai:20260828T240000
+DTEND;TZID=Asia/Shanghai:20260829T010000
+SUMMARY:🤖 AI预测：油价小幅上调 ~+60元/吨 - 8月28日（42%置信度）
+DESCRIPTION:【2026年第17轮调价 · AI预测】\n预测结果：小幅上调约60元/吨\n折合：92#汽油约+0.04元/升\n置信度：42%\n\n预测依据：\n- 夏末出行尾声仍有需求支撑\n- OPEC+可能释放稳价信号\n- 幅度较小\,存在搁浅可能\n\n⚠️ AI预测仅供参考
+LOCATION:全国
+CATEGORIES:成品油调价,AI预测,上调
+COLOR:purple
+BEGIN:VALARM
+TRIGGER:-PT6H
+ACTION:DISPLAY
+DESCRIPTION:⛽ 今晚24时油价调整（AI预测第17轮）
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:oil-2026-0911@workbuddy.ai
+DTSTART;TZID=Asia/Shanghai:20260911T240000
+DTEND;TZID=Asia/Shanghai:20260912T010000
+SUMMARY:🤖 AI预测：油价下调 ~-100元/吨 - 9月11日（45%置信度）
+DESCRIPTION:【2026年第18轮调价 · AI预测】\n预测结果：下调约100元/吨\n折合：92#汽油约-0.07元/升\n置信度：45%\n\n预测依据：\n- 夏季后需求自然回落\n- OPEC+可能逐步增产\n- 高盛Q4布伦特预测80美元\,油价下行趋势\n\n⚠️ AI预测仅供参考
+LOCATION:全国
+CATEGORIES:成品油调价,AI预测,下调
+COLOR:purple
+BEGIN:VALARM
+TRIGGER:-PT6H
+ACTION:DISPLAY
+DESCRIPTION:⛽ 今晚24时油价调整（AI预测第18轮）
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:oil-2026-0924@workbuddy.ai
+DTSTART;TZID=Asia/Shanghai:20260924T240000
+DTEND;TZID=Asia/Shanghai:20260925T010000
+SUMMARY:🤖 AI预测：油价搁浅 - 9月24日（40%置信度）
+DESCRIPTION:【2026年第19轮调价 · AI预测】\n预测结果：多空因素拉锯\,缺乏单一主导力量\,大概率搁浅\n置信度：40%\n\n预测依据：\n- 国际油价75-85美元区间震荡\n- 供需两端趋于均衡\n\n⚠️ AI预测仅供参考
+LOCATION:全国
+CATEGORIES:成品油调价,AI预测,搁浅
+COLOR:purple
+BEGIN:VALARM
+TRIGGER:-PT6H
+ACTION:DISPLAY
+DESCRIPTION:⛽ 今晚24时油价调整窗口（AI预测第19轮）
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:oil-2026-1015@workbuddy.ai
+DTSTART;TZID=Asia/Shanghai:20261015T240000
+DTEND;TZID=Asia/Shanghai:20261016T010000
+SUMMARY:🤖 AI预测：油价下调 ~-150元/吨 - 10月15日（42%置信度）
+DESCRIPTION:【2026年第20轮调价 · AI预测】\n预测结果：下调约150元/吨\n折合：92#汽油约-0.11元/升\n置信度：42%\n\n预测依据：\n- Q4全球需求走弱预期\n- 高盛Q4布伦特预测80美元（从90下调）\n- 非OPEC产量增长\,库存上升\n\n⚠️ AI预测仅供参考
+LOCATION:全国
+CATEGORIES:成品油调价,AI预测,下调
+COLOR:purple
+BEGIN:VALARM
+TRIGGER:-PT6H
+ACTION:DISPLAY
+DESCRIPTION:⛽ 今晚24时油价调整（AI预测第20轮）
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:oil-2026-1029@workbuddy.ai
+DTSTART;TZID=Asia/Shanghai:20261029T240000
+DTEND;TZID=Asia/Shanghai:20261030T010000
+SUMMARY:🤖 AI预测：油价或搁浅 - 10月29日（38%置信度）
+DESCRIPTION:【2026年第21轮调价 · AI预测】\n预测结果：油价波动收窄\,进入盘整期\,大概率搁浅\n置信度：38%\n\n预测依据：\n- 变化幅度可能不足50元/吨\n- 国庆后市场情绪回归理性\n\n⚠️ AI预测仅供参考
+LOCATION:全国
+CATEGORIES:成品油调价,AI预测,搁浅
+COLOR:purple
+BEGIN:VALARM
+TRIGGER:-PT6H
+ACTION:DISPLAY
+DESCRIPTION:⛽ 今晚24时油价调整窗口（AI预测第21轮）
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:oil-2026-1112@workbuddy.ai
+DTSTART;TZID=Asia/Shanghai:20261112T240000
+DTEND;TZID=Asia/Shanghai:20261113T010000
+SUMMARY:🤖 AI预测：油价下调 ~-200元/吨 - 11月12日（40%置信度）
+DESCRIPTION:【2026年第22轮调价 · AI预测】\n预测结果：下调约200元/吨\n折合：92#汽油约-0.14元/升\n置信度：40%\n\n预测依据：\n- OPEC+增产预期强化\n- 高盛预测Q4布伦特80美元\n- 全球库存上升\,供应过剩230万桶/日\n\n⚠️ AI预测仅供参考
+LOCATION:全国
+CATEGORIES:成品油调价,AI预测,下调
+COLOR:purple
+BEGIN:VALARM
+TRIGGER:-PT6H
+ACTION:DISPLAY
+DESCRIPTION:⛽ 今晚24时油价调整（AI预测第22轮）
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:oil-2026-1126@workbuddy.ai
+DTSTART;TZID=Asia/Shanghai:20261126T240000
+DTEND;TZID=Asia/Shanghai:20261127T010000
+SUMMARY:🤖 AI预测：油价搁浅 - 11月26日（38%置信度）
+DESCRIPTION:【2026年第23轮调价 · AI预测】\n预测结果：市场进入平稳期\,供需力量均衡\,大概率搁浅\n置信度：38%\n\n⚠️ AI预测仅供参考
+LOCATION:全国
+CATEGORIES:成品油调价,AI预测,搁浅
+COLOR:purple
+BEGIN:VALARM
+TRIGGER:-PT6H
+ACTION:DISPLAY
+DESCRIPTION:⛽ 今晚24时油价调整窗口（AI预测第23轮）
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:oil-2026-1210@workbuddy.ai
+DTSTART;TZID=Asia/Shanghai:20261210T240000
+DTEND;TZID=Asia/Shanghai:20261211T010000
+SUMMARY:🤖 AI预测：油价小幅下调 ~-80元/吨 - 12月10日（35%置信度）
+DESCRIPTION:【2026年第24轮调价 · AI预测】\n预测结果：小幅下调约80元/吨\n折合：92#汽油约-0.06元/升\n置信度：35%\n\n预测依据：\n- 年末需求偏弱\n- 全年油价下行趋势延续\n- 幅度较小\,存在搁浅可能\n\n⚠️ AI预测仅供参考
+LOCATION:全国
+CATEGORIES:成品油调价,AI预测,下调
+COLOR:purple
+BEGIN:VALARM
+TRIGGER:-PT6H
+ACTION:DISPLAY
+DESCRIPTION:⛽ 今晚24时油价调整（AI预测第24轮）
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:oil-2026-1224@workbuddy.ai
+DTSTART;TZID=Asia/Shanghai:20261224T240000
+DTEND;TZID=Asia/Shanghai:20261225T010000
+SUMMARY:🤖 AI预测：油价搁浅 - 12月24日（33%置信度）
+DESCRIPTION:【2026年第25轮调价 · AI预测 · 年度最后一轮】\n预测结果：年末假期\,交易清淡\,大概率搁浅\n置信度：33%\n\n⚠️ AI预测仅供参考\,以国家发改委公告为准
+LOCATION:全国
+CATEGORIES:成品油调价,AI预测,搁浅
+COLOR:purple
+BEGIN:VALARM
+TRIGGER:-PT6H
+ACTION:DISPLAY
+DESCRIPTION:⛽ 今晚24时油价调整（AI预测第25轮）\,2026年最后一次调价
 END:VALARM
 END:VEVENT
 
